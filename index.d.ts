@@ -1,4 +1,4 @@
-import TransportStream from "winston-transport";
+import * as TransportStream from "winston-transport";
 
 declare interface LokiTransportOptions extends TransportStream.TransportStreamOptions{
     host: string;
